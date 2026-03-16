@@ -1,0 +1,60 @@
+name: bodasos
+description: BodaSOS - Emergency System for Boda Boda Riders in Uganda
+version: 1.1.0+2
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # GPS & Location
+  geolocator: ^10.1.0
+
+  # HTTP & Networking
+  http: ^1.1.0
+  connectivity_plus: ^5.0.2
+
+  # Local Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+
+  # UI & UX
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+
+  # Device Features
+  vibration: ^1.8.4
+  audioplayers: ^5.2.1
+  sensors_plus: ^4.0.2
+
+  # Maps (free / OpenStreetMap — no API key needed)
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+  # Firebase push notifications
+  firebase_core: ^2.27.0
+  firebase_messaging: ^14.7.20
+  flutter_local_notifications: ^16.3.3
+
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  url_launcher: ^6.2.5
+  share_plus: ^7.2.2
+  timeago: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/images/
